@@ -1,0 +1,292 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+   font-family: sans-serif;
+   background-color: yellow;
+}
+#nav-bar 
+{
+ position: sticky;
+ top: 0;
+ z-index: 15;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,blue,blue);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+  height: 120px;
+  width:300px;
+  padding-left: 50px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color:black !important;
+    font-weight: 800;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color:black;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important ;
+}
+/*-------------------Banner section-------------------------*/
+#banner
+{
+    background-image: linear-gradient(to right,goldenrod,yellow);
+    color: black;
+    padding-top:5%;
+
+}
+.promo-title
+{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+#banner a
+{
+    color: black;
+    text-decoration: none;
+}
+.bottom-img
+{
+    width: 1400px;
+    height: 500px;
+   text-align: center;
+    padding: 20px;
+}
+    /*-------------------services------------------*/
+    
+
+.About-img
+{
+    width: 100%;
+    margin-top: 20px;
+}
+#About
+{
+ padding: 80px 0;
+}
+.About-img
+{
+    padding: 20px;
+}
+.About-img h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background: goldenrod;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display:block;
+    transform: translateY(63px);
+
+
+}
+title::after
+{
+    content: '';
+    background: yellow;
+    height: 10px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display:block;
+    transform: translateY(8px);
+
+
+}
+/*-------------menu--------------------*/
+
+#social-media
+{
+    background: whitesmoke;
+    padding: 100px 0;
+}
+#social-media p
+{
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+social-icons img
+{
+  transition: 0.5s;    
+}
+.social-icons a:hover img
+{
+    transform:translateY(-10px);
+}
+
+
+#footer
+{
+    background-image: linear-gradient(to right,lightgreen,lightgreen);
+    color: black;
+    
+}
+.footer-img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 30px;
+}
+.footer-box img
+{
+  width: 120px;
+  margin-bottom: 20px;
+
+}
+.footer-box .fa
+{
+   margin-right: 8px;
+   font-size: 25px;
+   height: 40px;
+   width: 60px;
+   text-align:center;
+   padding-top: 7px;
+   border-radius: 2px;
+   background-image: linear-gradient(to right,lightgreen,lightgreen);
+}
+hr
+{
+background-color:black;
+
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color:maroon;
+    padding: 30px;
+   
+}
+.s{
+    padding: 50px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+    color:darkblue;
+}
+.padding{
+    padding-left: 3em; 
+    padding-right: 3em;
+    padding: 50px;
+   
+}
+    
+.r{
+    padding: 50px;
+    text-align: center;
+    color:black;
+    
+}
+h2{
+    color:maroon;
+    text-align: center;
+}
+form {border: 3px }
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+ 
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    padding: 50px;
+    color:darkblue
+    
+}
